@@ -1,0 +1,820 @@
+body{	
+	background: #080001;
+	color: #cdcbcb;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a{
+	text-decoration: none;
+}
+i{	
+	display: inline-block;	
+	margin-right: 5px;
+	vertical-align: top;
+					
+}
+ul,li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: 'prelobook';
+    src: url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Book-webfont.eot');
+    src: url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Book-webfont.woff2') format('woff2'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Book-webfont.woff') format('woff'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Book-webfont.ttf') format('truetype'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Book-webfont.svg#prelobook') format('svg');
+}
+@font-face {
+    font-family: 'prelobold';
+    src: url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Bold-webfont.eot');
+    src: url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Bold-webfont.woff2') format('woff2'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Bold-webfont.woff') format('woff'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Bold-webfont.ttf') format('truetype'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Bold-webfont.svg#prelobold') format('svg');
+}
+@font-face {
+    font-family: 'preloextrabold';
+    src: url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-ExtraBold-webfont.eot');
+    src: url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-ExtraBold-webfont.woff2') format('woff2'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-ExtraBold-webfont.woff') format('woff'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-ExtraBold-webfont.ttf') format('truetype'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-ExtraBold-webfont.svg#preloextrabold') format('svg');
+}
+@font-face {
+    font-family: 'preloblack';
+    src: url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Black-webfont.eot');
+    src: url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Black-webfont.woff2') format('woff2'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Black-webfont.woff') format('woff'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Black-webfont.ttf') format('truetype'),
+         url('/especiales/mayweather-vs-pacquiao/fonts/Prelo-Black-webfont.svg#preloblack') format('svg');
+}
+
+#skrollr-body {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.clear{
+	clear: both;
+}
+
+/** estilos header**/
+
+.header-comercio{
+	background: #ffc605;
+	padding: 0;	
+	width: 100%;
+	z-index: 10;
+}
+	.ctn-header{
+		background: #ffc605;
+		margin: 0 auto;
+		max-width: 1024px;
+		position: relative;		
+	}
+		.ctn-header span{
+			background: url(/especiales/mayweather-vs-pacquiao/img/sprites.png) no-repeat 0 2px;
+			display: block;
+			margin: 0 auto;
+			text-indent: -99999px;
+			width: 188px;
+		}
+			.ctn-header span a{
+				display: block;
+				height: 37px;
+			}
+	#social{
+		position: absolute;
+		right: 0;
+		top: 3px;	
+		z-index: 10;
+	}		
+		#social ul {
+			cursor: pointer;
+			float: left;
+			list-style-type: none;
+			list-style-image: none;
+			margin: 0;
+			padding: 0;
+			text-align: center;            
+		}
+			#social li{		        	
+			    display: inline-block;
+			    margin: 0;
+			    *display: inline;
+			    vertical-align: top;
+			    zoom:1;
+			}
+				#social li a {
+			        background: url(/especiales/mayweather-vs-pacquiao/img/sprites.png) no-repeat;
+			        border: 0;
+			        display: block;
+			        height: 11px; 
+			        margin: 0 2px;                     
+			        padding: 10px;
+			        text-indent: -9999px;                          
+			        width: 12px;
+			    }
+					#social li a#facebook {
+					    background-position: 1px -48px;
+					}
+						#social li a#facebook:hover {
+					    	background-position: -89px -48px;
+						}			     
+					#social li a#twitter {
+					    background-position: -27px -47px;		
+					}	
+						#social li a#twitter:hover {
+					    	background-position: -119px -48px;
+						}	           
+					#social li a#google {
+					    background-position: -57px -47px;	           
+					} 
+						#social li a#google:hover {
+					    	background-position: -147px -48px;
+						}
+
+/** estilos contenido**/
+
+.hsContainer {
+	display: table;
+    height: 100%;    
+    overflow: hidden;
+    position: relative;
+    table-layout: fixed;
+    width: 100%;
+}
+	.hsContent {
+		display: table-cell;
+		margin: -150px auto 0 auto; 
+		max-width: 80%;      
+	    padding: 0;
+	    position: relative;
+	    text-align: center;
+	    vertical-align: middle;
+	}
+	.box-center{
+		height: 100%;		
+		margin: 0 auto;
+		max-width: 1200px;
+		min-height: 800px;
+		overflow: hidden;
+		position: relative;		
+	}
+		.bloque-1{
+			background: url(/especiales/mayweather-vs-pacquiao/img/bg-bloque-1.jpg) no-repeat center center;
+			background-size: cover;
+			height:100%;
+			width: 100%;
+		}
+			.principal h1{
+				background: url(/especiales/mayweather-vs-pacquiao/img/titulo-pelea.png) no-repeat center center;
+				height: 215px;
+				margin: 0 auto;
+				text-indent: -9999px;
+				width: 540px;
+			}
+			.arrow{
+				background: url(/especiales/mayweather-vs-pacquiao/img/sprites.png) no-repeat -2px -80px;
+				bottom: 2em;
+				height: 33px;	    			
+  				left: 50%;
+  				margin-left: -20px;
+  				position: absolute;
+  				width: 59px;
+			}
+			.box-main-videos{
+				display: inline-block;
+				position: relative;
+				vertical-align: top;
+				z-index: 100;
+			}
+				.videos-ko{
+					box-shadow: 0px 0px 40px #000;
+					display: inline-block;
+					margin: 50px 25px;
+					vertical-align: top;
+				}			
+			.noticias{
+				cursor: pointer;
+				margin: 0 auto;
+			  	margin-bottom: -60px;
+			}
+		.bloque-2{
+			background: #080001;			
+			height:100%;
+			width: 100%;
+		}
+			.bloque-texto{
+				margin: 0 auto;
+				width: 30%;
+			}
+				.bloque-2 h2{				
+					font: 2.6em/1.1em 'preloblack';
+					margin: 0 auto;
+					text-transform: uppercase;
+				}
+				.bloque-2 p{
+					font: 1.1em/1.3em 'prelobook';
+					margin: 0.5em auto;
+					text-align: left;
+				}
+		.bloque-3{
+			background: #080001;			
+			height:100%;
+			width: 100%;
+		}
+			.box-info-floyd,
+			.box-info-manny{
+				position: absolute;
+				width: 460px;
+			}
+				.datos-floyd{
+					background: url(/especiales/mayweather-vs-pacquiao/img/bg-datos-floyd.jpg) no-repeat 0 0;
+					height: 360px;
+					margin-top: -5px;
+					padding: 20px;
+					position: absolute;					  
+					width: 420px;
+				}
+				.datos-manny{
+					background: url(/especiales/mayweather-vs-pacquiao/img/bg-datos-manny.jpg) no-repeat 0 0;
+				}
+					.datos-floyd h3{
+						border-bottom: 5px solid;
+						/*float: left;*/
+						font: 28px/30px 'preloblack';
+						margin: 0 auto 5px;
+						text-align: center;
+					}
+					ul.datos li{
+						  display: block;
+						  font: 19px/20px 'prelobook';
+						  margin: 6px 0;
+						  text-align: center;
+					}
+						ul.datos li span{
+							font-family: 'prelobold';
+						}
+			.bloque-4{
+				background: #080001;
+				height:100%;
+				width: 100%;			
+			}
+				.box-data-main{
+					position: absolute;
+					width: 1020px;
+				}
+					.picture-box-data{
+						max-height: 350px;
+						position: relative;
+						width: 540px;
+					}
+						.picture-floyd{
+							border: 2px solid #be1529;
+							float: left;
+						}
+						.picture-manny{
+							border: 2px solid #1d39c3;
+							float: left;
+						}
+							.picture-manny h4{
+								background: #1d39c3 !important;
+								right: 0;
+							}
+						.picture-box-data h4{
+							background: #be1529;
+							bottom: 10px;
+							display: block;
+							font: 21px/18px 'preloblack';
+							padding: 20px;
+							position: absolute;
+						}
+					.box-data{
+						background: url(/especiales/mayweather-vs-pacquiao/img/bg-metal.jpg) no-repeat 0 0;
+						float: left;
+						height: 300px;
+						margin: 1.6em 0;
+						width: 475px;
+					}
+						.columna{
+							display: inline-block;
+							margin: 15px 15px 0;
+							vertical-align: top;
+							width: 182px;
+						}
+						.datos-redes{
+							width: 210px;
+						}
+							.grafico-floyd{
+								background: url(/especiales/mayweather-vs-pacquiao/img/sprites.png) no-repeat -3px -123px;
+								height: 182px;
+								margin-bottom: 20px;
+								width: 182px;
+							}
+							.grafico-manny{
+								background: url(/especiales/mayweather-vs-pacquiao/img/sprites.png) no-repeat -3px -309px;
+								height: 182px;
+								margin-bottom: 10px;
+								width: 182px;
+							}
+							ul.leyenda{
+
+							}
+								ul.leyenda li{
+									display: block;
+									font: 18px/18px 'prelobold';
+									margin: 5px 0;
+									text-align: left;
+								}
+									ul.leyenda li.victorias i{
+										background: #30954d;
+										border-radius: 10px;
+										height: 14px;
+										width: 14px;	
+									}
+									ul.leyenda li.ko i{
+										background: #9d9104;	
+										border-radius: 10px;
+										height: 14px;
+										width: 14px;										
+									}
+									ul.leyenda li.derrotas i{
+										background: #a30a0a;	
+										border-radius: 10px;
+										height: 14px;
+										width: 14px;										
+									}
+							ul.redes{
+
+							}
+								ul.redes li{
+									display: block;
+									font: 16px/18px 'prelobook';
+									margin: 0 0 15px;
+									text-align: left;
+								}
+									ul.redes li span{
+										font-family: 'prelobold';
+									}
+									ul.redes li.tw-icon i{
+										background: url(/especiales/mayweather-vs-pacquiao/img/sprites.png) no-repeat -71px -82px;
+										float: left;
+										height: 36px;
+										width: 36px;
+									}
+									ul.redes li.fb-icon i{
+										background: url(/especiales/mayweather-vs-pacquiao/img/sprites.png) no-repeat -109px -82px;
+										float: left;
+										height: 36px;
+										width: 36px;
+									}
+									ul.redes li.insta-icon i{
+										background: url(/especiales/mayweather-vs-pacquiao/img/sprites.png) no-repeat -149px -82px;
+										float: left;
+										height: 36px;
+										width: 36px;
+									}
+								.datos-redes h6{
+									border-bottom: 2px solid;									
+									float: left;
+									font: 16px/16px 'prelobold';
+									margin: 0;
+									text-align: left;
+								}
+								ul.titulos{
+
+								}
+									ul.titulos li{
+										display: inline-block;
+										font: 16px/16px 'prelobold';
+										margin: 15px 5px;
+										vertical-align: top;
+										width: 85px;
+									}
+										ul.titulos li i{
+											background: url(/especiales/mayweather-vs-pacquiao/img/sprites.png) no-repeat -3px -497px;
+											display: block;
+											height: 41px;
+											margin: 0 auto;
+											width: 40px;
+										}
+									.unico{
+										float: left;
+									}
+			.bloque-5{
+				background: #080001;
+				height:100%;
+				width: 100%;			
+			}
+				.titulo-frases{
+					background: url(/especiales/mayweather-vs-pacquiao/img/titulo-frases.png) no-repeat 0 0;
+					height: 168px;
+					left: 50%;
+					margin: -150px auto 0 -250px;
+					position: absolute;
+					top: 50%;
+					width: 536px;
+					z-index: 10;
+				}
+				.box-main-frases{
+					position: absolute;
+					max-width: 460px;
+				}
+					.frases-floyd{
+						left: 114px;
+					}
+					.frases-floyd img{
+						border: 2px solid #be1529;
+					}
+					.frases-floyd .box-frases .frase span{
+						background: #be1529;
+						margin-bottom: 5px;
+					}
+					.frases-manny{
+						right: 78px;
+					}
+					.frases-manny img{
+						border: 2px solid #1d39c3;
+					}
+					.frases-manny .box-frases .frase span{
+						background: #1d39c3;
+						margin-bottom: 5px;
+					}
+						.box-frases{
+							display: inline-block;
+							font: 29px/32px 'preloextrabold';
+							margin: 0 5px;
+							max-width: 220px;
+							text-align: left;
+							vertical-align: top;
+						}							
+							.frase{							
+							}
+								.frase span{
+									display: block;
+									height: 10px;
+									width: 60px;
+								}
+								.frase h5{
+									margin: 0 auto 15px;
+								}
+			.bloque-6{
+				background: url(/especiales/mayweather-vs-pacquiao/img/bg-bloque-6.jpg) no-repeat center center;
+				background-size: cover;
+				height:100%;
+				width: 100%;			
+			}
+				.main-clock {
+					display: table;
+				    height: 100%;    
+				    overflow: hidden;
+				    position: relative;
+				    table-layout: fixed;
+				    width: 100%;
+				}
+					.cell-clock {
+						display: table-cell;
+						margin: -150px auto 0 auto; 
+						max-width: 80%;      
+					    padding: 0 8%;
+					    position: relative;
+					    text-align: center;
+					    vertical-align: middle;
+					}
+						.texto-faltan{
+							background: url(/especiales/mayweather-vs-pacquiao/img/texto-reloj.png) no-repeat 0 0;
+							display: inline-block;
+							height: 90px;
+							vertical-align: top;
+							width: 542px;
+						}
+						.texto-pelea{
+							background: url(/especiales/mayweather-vs-pacquiao/img/texto-reloj.png) no-repeat 0 -75px;
+						 	display: inline-block;
+						  	height: 170px;
+						  	margin-bottom: 2%;
+						  	vertical-align: top;
+						  	width: 542px;
+						}
+						.center{
+							display: inline-block;
+							margin: 0 auto;
+							vertical-align: top;
+						}
+/** widgets redes **/
+
+.fb_iframe_widget{
+	margin: 0 5px;
+	vertical-align: top;
+}
+.twitter-share-button{
+	margin: 0 5px;
+}
+
+/** browser alert**/
+
+#browserWarning { 
+	display: none; 
+}
+	
+@media screen and (max-width: 370px){
+	#social {
+		display: none;
+	}
+	.principal h1{
+		background-size: 100%; 
+		width: 10em;
+	}
+	.bloque-texto{
+		width: 95%;
+	}
+	.box-info-floyd,
+	.data-floyd,
+	.box-info-manny,
+	.data-manny {
+	  	position: relative;
+	  	width: 100%;
+	}
+		.box-info-floyd img,
+		.box-info-manny img{
+			background-size: 100%; 
+			width: 100%;
+		}
+		.datos-floyd,
+		.datos-manny{
+			position: relative;
+  			width: 100%;
+		}
+	.picture-box-data {
+	  	width: 97%;
+	}
+		.picture-box-data img{
+			width: 100%;
+		}
+	.box-data{
+		background-repeat: repeat-y;
+		height: auto;
+		width: 100%;  		
+	}
+	.box-main-frases {
+		position: relative;
+	}
+		.box-frases{
+			max-width: 99%;
+		}
+		.frases-floyd img,
+		.frases-manny img {		  
+			display: none;
+		}
+		.frase h5 {		  
+			line-height: 1.2em;
+		}
+	.titulo-frases {
+		background-size: 100%;
+	  	height: 105px;
+	  	left: 0;
+	  	margin: 0 auto;
+	  	position: relative;
+	  	top: 0;
+	  	width: 98%;	  
+	}
+	.bloque-6{
+		height: 10em;
+	}
+		.center{
+			display: none;
+		}
+		.texto-faltan,
+		.texto-pelea{
+			display: none;
+		}
+	
+}
+@media screen and (max-width: 490px){
+	
+}
+@media screen and (max-width: 650px){
+	.principal h1{
+		background-size: 100%; 
+		width: 10em;
+	}
+	.bloque-texto{
+		width: 95%;
+	}
+	.box-info-floyd,
+	.data-floyd,
+	.box-info-manny,
+	.data-manny {
+	  	position: relative;
+	  	width: 100%;
+	}
+		.datos-floyd,
+		.datos-manny{
+			margin: 0 auto;
+			position: relative;
+		}
+	.picture-box-data {
+		overflow: hidden;
+	  	width: 97%;
+	}
+		.picture-box-data img{
+			width: 100%;
+		}
+	.box-data{
+		background-repeat: repeat-y;
+		height: auto;
+		width: 100%;  		
+	}
+	.box-main-frases {
+		  position: relative;
+		  width: 47%;
+		  display: inline-block;
+		  vertical-align: top;
+	}
+		.box-frases{
+			max-width: 99%;
+		}
+		.frases-floyd img,
+		.frases-manny img {		  
+			display: none;
+		}
+		.frase h5 {		  
+			line-height: 1.2em;
+		}
+	.titulo-frases {
+		background-size: 100%;
+	  	height: 13em;
+	  	left: 0;
+	  	margin: 0 auto;
+	  	position: relative;
+	  	top: 0;
+	  	width: 98%;	  
+	}
+	.bloque-6{
+		height: 10em;
+	}
+		.center{
+			display: none;
+		}
+		.texto-faltan,
+		.texto-pelea{
+			display: none;
+		}		
+}	
+@media screen and (max-width: 970px){
+	
+}
+@media screen and (max-width: 1024px){
+
+	.box-info-floyd,
+	.data-floyd {
+	  	left: 1% !important;
+	}
+	.box-info-manny,
+	.data-manny{
+		right: 1% !important;
+	}
+	.frases-floyd {
+	  	left: 1%;
+	}
+	.frases-manny {
+  		right: 1%;
+	}
+	
+}
+
+/* IE9  */
+@media all and (min-width:0\0) and (min-resolution: .001dpcm){
+    #browserWarning{
+		background: url(/especiales/mayweather-vs-pacquiao/img/bg-trans.png) repeat;
+		display: block;
+		height: 100%;
+		overflow: hidden;
+		position: fixed;
+		width: 100%;	
+		z-index: 99999;		
+	}
+		.ctn-bg-ie8{
+			left: 50%;
+			margin: -150px auto 0 -350px;
+			position: absolute;
+			top: 50%;
+			width: 800px;
+		}
+			.ctn-bg-ie8 h1{
+				color: #fff;
+				font: 28px/30px 'prelobold';
+				text-align: center;
+				text-transform: uppercase;
+			}
+			.ctn-bg-ie8 ul{
+				/*display: inline-block;*/
+				margin: 0 auto;
+				text-align: center;
+			}
+				.ctn-bg-ie8 ul li{
+					display: inline-block;
+					text-align: center;
+				}
+					.ctn-bg-ie8 ul li a{
+						display: inline-block;
+						margin: 0 10px;
+					}
+						.ctn-bg-ie8 ul li a.chrome{
+							background: url(/especiales/mayweather-vs-pacquiao/img/sprites-navegadores.png) no-repeat 0 0;
+							height: 90px;
+							width: 90px;
+						}
+						.ctn-bg-ie8 ul li a.firefox{
+							background: url(/especiales/mayweather-vs-pacquiao/img/sprites-navegadores.png) no-repeat -215px 0;
+							height: 90px;
+							width: 90px;
+						}
+						.ctn-bg-ie8 ul li a.explorer{
+							background: url(/especiales/mayweather-vs-pacquiao/img/sprites-navegadores.png) no-repeat -105px 0;
+							height: 90px;
+							width: 90px;
+						}
+						.ctn-bg-ie8 ul li a.safari{
+							background: url(/especiales/mayweather-vs-pacquiao/img/sprites-navegadores.png) no-repeat -329px 0;
+							height: 90px;
+							width: 90px;
+						}
+	.videos-ko{
+		display: none;
+	}
+}
+
+
+/* IE8 (via Keith Clarke) */
+@media \0screen { 
+	#browserWarning{
+		background: url(/especiales/mayweather-vs-pacquiao/img/bg-trans.png) repeat\0/;
+		display: block\0/;
+		height: 100%\0/;
+		position: fixed\0/;
+		width: 100%\0/;	
+		z-index: 9000\0/;		
+	}
+		.ctn-bg-ie8{
+			left: 50%\0/;
+			margin: -150px auto 0 -350px\0/;
+			position: absolute\0/;
+			top: 50%\0/;
+			width: 800px\0/;
+		}
+			.ctn-bg-ie8 h1{
+				color: #fff\0/;
+				font: 28px/30px arial\0/;
+				text-align: center\0/;
+				text-transform: uppercase\0/;
+			}
+			.ctn-bg-ie8 ul{
+				/*display: inline-block;*/
+				margin: 0 auto\0/;
+				text-align: center\0/;
+			}
+				.ctn-bg-ie8 ul li{
+					display: inline-block\0/;
+					text-align: center\0/;
+				}
+					.ctn-bg-ie8 ul li a{
+						display: inline-block\0/;
+						margin: 0 10px\0/;
+					}
+						.ctn-bg-ie8 ul li a.chrome{
+							background: url(/especiales/mayweather-vs-pacquiao/img/sprites-navegadores.png) no-repeat 0 0\0/;
+							height: 90px\0/;
+							width: 90px\0/;
+						}
+						.ctn-bg-ie8 ul li a.firefox{
+							background: url(/especiales/mayweather-vs-pacquiao/img/sprites-navegadores.png) no-repeat -215px 0\0/;
+							height: 90px\0/;
+							width: 90px\0/;
+						}
+						.ctn-bg-ie8 ul li a.explorer{
+							background: url(/especiales/mayweather-vs-pacquiao/img/sprites-navegadores.png) no-repeat -105px 0\0/;
+							height: 90px\0/;
+							width: 90px\0/;
+						}
+						.ctn-bg-ie8 ul li a.safari{
+							background: url(/especiales/mayweather-vs-pacquiao/img/sprites-navegadores.png) no-repeat -329px 0\0/;
+							height: 90px\0/;
+							width: 90px\0/;
+						}
+	.videos-ko{
+		display: none;
+	}
+}
+
